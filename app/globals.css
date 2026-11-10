@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --radius-sm: 0.125rem;
+}
+
+body {
+  margin: 0;
+  font: 16px/1.45 system-ui, sans-serif;
+  color: #111;
+  background: #fff;
+}
+
+button,
+input,
+textarea,
+select,
+a,
+.surface {
+  border-radius: var(--radius-sm);
+}
